@@ -2,7 +2,7 @@
 #include <string.h>
 #include <stdlib.h>
 int isStringEmpty(const char* input) {
-    if (strcmp(input, "") == 0 || strcmp(input, "0") == 0) {=
+    if (strcmp(input, "") == 0 || strcmp(input, "0") == 0) {
         return 1;
     } else {
         return 0;
